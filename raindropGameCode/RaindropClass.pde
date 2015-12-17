@@ -5,11 +5,11 @@ class Raindrop {
   float diam;
   color c;
   
-  Raindrop(float x, float y, color c){
+  Raindrop(float x, float y){
     loc = new PVector(random(width), 0);
     vel = new PVector(0, 5);
     acc = new PVector(0, 0.01);
-    diam = 30;
+    diam = 40;
     c = 255;
   }
   
