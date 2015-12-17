@@ -85,4 +85,10 @@ void backgroundBubbles() {
   ellipse(1140, 60, 30, 30);
   ellipse(1140, 740, 30, 30);
   ellipse(60, 740, 30, 30);
+  strokeWeight(4);
+  stroke(255);
+  line(100, 10, 1100, 10);
+  line(100, 790, 1100, 790);
+  line(10, 100, 10, 700);
+  line(1190, 100, 1190, 700);
 }
